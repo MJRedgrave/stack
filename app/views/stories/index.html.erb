@@ -5,7 +5,7 @@
 
 	<div>
 		<h2><%= link_to s.title, s.url %></h2>
-		<hp><%= s.description %></p>
+		<p><%= s.description %></p>
 
 		<ul>
 			<li><%= link_to "Upvote", story_votes_path(s, back_to: "home"), method: :post %></li>
